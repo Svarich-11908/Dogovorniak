@@ -23,7 +23,7 @@ class ControllersTest {
     }
 
     @Test
-    void getIndex() throws Exception {
+    void positiveTest() throws Exception {
         final String responseString = mockMvc.perform(
                         get("/index")
                                 .contentType(MediaType.APPLICATION_JSON)
